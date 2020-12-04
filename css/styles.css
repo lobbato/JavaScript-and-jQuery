@@ -1,0 +1,10 @@
+#drinks, #under-21 {
+    display: none;
+}
+ 
+.btn {
+    display: block;
+  }
+  #quote {
+    display: none;
+  }
