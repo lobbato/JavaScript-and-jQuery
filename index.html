@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -7,100 +8,110 @@
   <script src="js/scripts.js"></script>
   <title>Drinks</title>
 </head>
-<body>
-  <div class="container">
-    <div id="drinks">
-      <h1>Drink menu</h1>
-
-      <h2>Beer</h2>
-      <ul>
-        <li>The King of Beer</li>
-        <li>The Queen of Beer</li>
-        <li>Real cold beer</li>
-      </ul>
-
-      <h2>Wine</h2>
-      <ul>
-        <li>Red wine</li>
-        <li>White wine</li>
-        <li>Blue wine</li>
-      </ul>
+<!--WHAT PROGRAMING LANGUAGE YOU SHOULD LEARN BASED OFF OF YOUR HARRY POTTER HOUSE-->
+<!--What kind of enviroment do you want to work in?-->
+<!--Which of the following is most important-->
+<div class="container">
+  <h1>Which of the following is most important</h1>
+  <form id="Visibility">
+    <div class="radio">
+      <label>
+        <input type="radio" name="operator" value="1" checked>
+        Having my work be seen by all!
+      </label>
     </div>
-
-    <div id="under-21">
-      <h1>Sorry, we can't serve you.</h1>
-
-      <p>It's illegal in the US. Try Mexico or Europe.</p>
+    <div class="radio">
+      <label>
+        <input type="radio" name="operator" value="2">
+        Making sure that people have an ejoyable expirence.
+      </label>
     </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="operator" value="3">
+        Building a framework that will dictate usage.
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="operator" value="4">
+        Creating a repository to organize and house all information
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="operator" value="0">
+        I don't really care... I don't know why I am doing this.
+      </label>
+    </div>
+    <button type="submit" class="btn">Go!</button>
+  </form>
+  <div id="output">
+    <!--Do you want something more universal or nishe?-->
+    <!--Are you more of a night owl or morning person?-->
+    <!--What beverage sounds most appealing?-->
+    <!--Pick a Number-->
+    <!--Who is your favorite proffessor?-->
+    <!--What is your favorite Subject?-->
+    <!--What kind of pet would you take?-->
+    <!--What are you most excited to learn?-->
+    <!--Favorite secret hiding spot?-->
+
+    <body>
+      <p>
+        <h1>Front-end</h1>
+      </p>
+
+      <p>The first thing you need to decide is if you want to focus more on front-end or back-end development. Front-end
+        developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and
+        design. If this type of work appeals to you, your best bet is to take the front-end track at Epicodus, where
+        you'll learn HTML, CSS, and JavaScript. Front-end developers typically use a JavaScript framework like React,
+        Angular, or Ember. While each has its differences, they've evolved to have more in common than not. Epicodus
+        teaches React, because it is the most popular framework, but the skills translate into any of the other
+        frameworks.</p>
+
+      <p>
+        <h1>Back-end</h1>
+      </p>
+
+      <p>If you're more interested in back-end development, you have several choices of languages: C# and Ruby are
+        offered at Epicodus, and you may have heard of other languages like Java, Python, Go, and PHP. Again, my best
+        advice about how to choose is not to worry too much. Most modern programming languages have more similarities
+        than differences, and Epicodus graduates often find themselves working in different languages than they studied
+        in school. Back-end programmers often switch languages as they change jobs, or even as they build different
+        types of software at the same job. So don't stress too much about making the right choice! That said, each
+        language has found a bit of a niche, and depending on your interests, you might be attracted to one over
+        another.</p>
+
+      <p>
+        <h2>C#</h2>
+      </p>
+
+      <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been
+        around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job
+        market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and
+        surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other
+        languages. If you like the idea of working for a larger company on business software, C# is a great choice. It's
+        also very similar to Java, so if you're interested in Java development, C# is a great choice at Epicodus.</p>
+
+      <p>
+        <h2>Ruby</h2>
+      </p>
+
+      <p> Ruby is a favorite language of developers building interactive web applications. If an app involves users
+        creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built
+        with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the
+        common tasks associated with building web applications. It's most popular with startups and smaller companies
+        who are looking to build their product quickly. Like C# and Java, Ruby is very similar to Python, and Ruby is a
+        great choice at Epicodus if you're interested in Python.</p>
+
+      <p> Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired
+        copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and
+        PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find
+        them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.
+      </p>
   </div>
-
-  <!--Insurance-->
-
-  <div class="container">
-    <h1>Car insurance</h1>
-
-    <p>To give you a quote, we need to know a little about you:</p>
-
-    <form id="insurance">
-      <label for="age">Age</label>
-      <input id="age" type="text">
-      <label for="gender">Gender</label>
-      <select id="gender">
-        <option value="female">Female</option>
-        <option value="male">Male</option>
-      </select>
-
-      <button type="submit" class="btn">Calculate my quote</button>
-    </form>
-
-    <div id="quote">
-      <p>You will have to pay $<span id="rate"></span> per month to get car insurance. You should probably just bike or take the bus.</p>
-    </div>
-  </div>
-
-  <!--Calculator-->
-
-  <body>
-    <div class="container">
-      <h1>Calculator</h1>
-      <form id="calculator">
-        <div class="form-group">
-          <label for="input1">1st number:</label>
-          <input id="input1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="input2">2nd number:</label>
-          <input id="input2" class="form-control" type="text">
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="operator" value="add" checked>
-            add
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="operator" value="subtract">
-            subtract
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="operator" value="multiply">
-            multiply
-          </label>
-        </div>        
-        <div class="radio">
-          <label>
-            <input type="radio" name="operator" value="divide">
-            divide
-          </label>
-        </div>        
-        <button type="submit" class="btn">Go!</button>
-      </form>
-      <div id="output">
-  
-      </div>
-    </div>
+</div>
 </body>
+
 </html>
