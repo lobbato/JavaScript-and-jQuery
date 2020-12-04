@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/72839849/99744030-bdea4600-2a8b-11eb-8bb0-5994cdd64ecb.png)
+![image](https://user-images.githubusercontent.com/72839849/101116743-8ce53780-359a-11eb-9bfa-fd38b7db8318.png)
 
 <ul>
   <li><strong> Author Name:</strong> Emily Lobbato <br></li>
