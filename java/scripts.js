@@ -30,24 +30,26 @@ $(document).ready(function() {
       event.preventDefault();
     });
   });
+  // What kind of enviroment do you want to work in?
 
-  // CALCULATOR
+  // Which of the following is most important?
   $(document).ready(function() {
-    $("form#calculator").submit(function() {
-      event.preventDefault();
-      const number1 = parseInt($("#input1").val());
-      const number2 = parseInt($("#input2").val());
+    $("form#Visibility").submit(function() {
       const operator = $("input:radio[name=operator]:checked").val();
       let result;
-      if (operator === "add") {
+      if (operator === "1") {
         result = add(number1, number2);
-      } else if (operator === "subtract") {
-        result = subtract(number1, number2);
-      } else if (operator === "multiply") {
-        result = multiply(number1, number2);
-      } else if (operator === "divide") {
-        result = divide(number1, number2);
+      } else if (operator === "2") {
+        result = add(number1, number2);
+      } else if (operator === "3") {
+        result = add(number1, number2);
+      } else if (operator === "4") {
+        result = add(number1, number2);
       }
       $("#output").text(result);
     });
   });
+
+// Do you want something more universal or nishe?
+// Are you more of a night owl or morning person?
+// What beverage sounds most appealing?

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+
+body {
+  background-color: black;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: white;
+    font-size: 15px;
+    min-width: 80rem;
+}
+.choice-container:hover {
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.05);
+}
+
+.choice-prefix {
+    padding: 0px;
+    color: rgb(137, 18, 206);
+}
+
+.choice-text {
+    padding:0px;
+    width: 100%;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
